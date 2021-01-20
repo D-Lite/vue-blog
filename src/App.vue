@@ -2,6 +2,7 @@
   <div id="app">
     <Header />
     <Latest />
+    <Posts />
   </div>
 </template>
 
@@ -9,12 +10,14 @@
 
 import Header from './components/Header';
 import Latest from './components/Latest';
+import Posts  from './components/Post'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Latest
+    Latest,
+    Posts
   }
 }
 </script>
