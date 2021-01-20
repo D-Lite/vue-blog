@@ -1,26 +1,33 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <Header />
+    <Latest />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import Header from './components/Header';
+import Latest from './components/Latest';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header,
+    Latest
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss" scoped>
+  body{
+    background-color: #f3f3f3;
+    font-family: "Rockwell", serif;
+
+    h3{
+      color: #171717;
+      font-size: 28px;
+      font-weight: 700;
+    }
+  }
 </style>
