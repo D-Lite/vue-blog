@@ -1,24 +1,6 @@
-# blog
+A personal blog in development.
 
-## Project setup
-```
-npm install
-```
+# Once completed, will release the link.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Thanks,
+# BUilt with Vue
